@@ -1,0 +1,13 @@
+---
+:backends:
+  - yaml
+:yaml:
+  :datadir: '/etc/puppet/hiera/%{::environment}/hieradata'
+:hierarchy:
+  - fqdns/%{::fqdn}
+  - roles/%{::role}
+  - domains/%{::domain}
+  - common
+
+
+:logger: console

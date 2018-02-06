@@ -1,0 +1,6 @@
+---
+classes:
+  - stdlib
+  - facts
+  - apache
+

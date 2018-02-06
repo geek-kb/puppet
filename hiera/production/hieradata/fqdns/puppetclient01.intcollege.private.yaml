@@ -1,0 +1,8 @@
+---
+classes:
+  - role
+  - stdlib
+  - facts
+  - apache
+
+name: notitai
